@@ -1,0 +1,38 @@
+.img {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+}
+body {
+  background-color: rgb(206, 211, 211);
+  /* background-color: #dddde0; */
+}
+
+#container::after{
+  /* border-left: 1px solid black; */
+  content: '';
+  position:absolute;
+  background-color: black;
+  width: 2px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.photo {
+  width: 20vw;
+  height: 30vh;
+  transition: 0.3s;
+  border-radius: 1rem;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+.photo:hover {
+  background-color: rgb(145, 143, 136) !important;
+  transform: scaleX(1.1);
+}
+
+.arrow {
+  height: 40px;
+  width: 50px;
+}
